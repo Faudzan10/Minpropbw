@@ -6,7 +6,7 @@ Website portfolio pribadi bertema abu-abu elegan yang dibuat menggunakan HTML da
 Website terdiri dari Navbar, Hero Section, About Me, Skills, Certificates, dan Footer.
 
 1. Navbar
-2. 
+
 <img width="633" height="245" alt="image" src="https://github.com/user-attachments/assets/9a2e3228-6d5e-4deb-bca0-088aa9a2863c" />
 
 Penjelasan :
