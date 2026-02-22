@@ -36,7 +36,7 @@ Penjelasan :
 
 <img width="1243" height="730" alt="image" src="https://github.com/user-attachments/assets/8dad43e1-231d-4b45-9b7c-169f8c002351" />
 
-- Section <section id="about" class="about"> digunakan untuk menampilkan bagian About Me dan menjadi target navigasi dari navbar melalui id="about". Di dalamnya terdapat <h2> sebagai judul dan <p> yang berisi deskripsi diri mengenai latar belakang, minat di bidang teknologi, serta ketertarikan pada sepak bola.
+- section id="about" menampilkan About Me, berisi h2 dan <p> tentang diri dan minat.
 
-- Bagian Skills dibuat menggunakan <div class="skill"> sebagai container setiap kemampuan. Teks persentase ditampilkan menggunakan <span>, sedangkan progress bar dibuat dengan <div class="progress"> sebagai background dan <div class="bar ..."> sebagai isi bar. Class tambahan seperti .programming, .sport, dan .soft digunakan untuk mengatur lebar bar sesuai persentase (70%, 80%, 90%) melalui CSS.
+- Skills memakai div class="skill", span untuk persen, dan progress bar (.progress + .bar). Class tambahan mengatur lebar sesuai persentase lewat CSS.
 
