@@ -11,10 +11,10 @@ Website terdiri dari Navbar, Hero Section, About Me, Skills, Certificates, dan F
 
 Penjelasan :
 
-- <nav> → Elemen navigasi
+-  <nav> → Elemen navigasi
 
-- .logo → Identitas website
+-  .logo → Identitas website
+ 
+-  <ul> → Daftar menu
 
-- <ul> → Daftar menu
-
-- href="#home" → Navigasi ke section dengan id "home"
+-  href="#home" → Navigasi ke section dengan id "home"
