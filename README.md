@@ -1,19 +1,12 @@
 # Personal Portfolio Website - Muhammad Irdhan Nur Faudzan
+📌 Deskripsi Project
 
-## 📌 Deskripsi Project
-Website portfolio pribadi bertema abu-abu elegan yang dibuat menggunakan HTML dan CSS.  
+Website portfolio pribadi bertema abu-abu elegan yang dibuat menggunakan HTML dan CSS.
 Website terdiri dari Navbar, Hero Section, About Me, Skills, Certificates, dan Footer.
 
----
-
-# 🧱 PENJELASAN HTML
-
----
-
+🧱 PENJELASAN HTML
 1. Struktur Dasar HTML
 <img width="726" height="192" alt="image" src="https://github.com/user-attachments/assets/d80563e3-b98f-4ede-bc24-d59f30b7c639" />
-
-Penjelasan:
 
 <!DOCTYPE html> → Menentukan bahwa dokumen menggunakan HTML5.
 
@@ -25,12 +18,8 @@ viewport → Agar responsive di perangkat mobile.
 
 link rel="stylesheet" → Menghubungkan file CSS.
 
-
-2️. Navbar
-
+2. Navbar
 <img width="633" height="245" alt="image" src="https://github.com/user-attachments/assets/9a2e3228-6d5e-4deb-bca0-088aa9a2863c" />
-
-Penjelasan:
 
 <nav> → Elemen navigasi.
 
@@ -38,14 +27,10 @@ Penjelasan:
 
 <ul> → Daftar menu.
 
-href="#home" → Navigasi ke section dengan id "home"
-
+href="#home" → Navigasi ke section dengan id "home".
 
 3. Hero Section (Home)
-
 <img width="987" height="286" alt="image" src="https://github.com/user-attachments/assets/6a1bf39b-8668-4871-a512-28ace613bfc4" />
-
-Penjelasan:
 
 id="home" → Target navigasi navbar.
 
@@ -55,33 +40,24 @@ id="home" → Target navigasi navbar.
 
 alt → Deskripsi alternatif gambar.
 
-
-4️. About Me & Skill
-
+4. About Me & Skill
 <img width="1243" height="730" alt="image" src="https://github.com/user-attachments/assets/8dad43e1-231d-4b45-9b7c-169f8c002351" />
-
-Penjelasan:
 
 Section <section id="about" class="about"> digunakan untuk menampilkan bagian About Me dan menjadi target navigasi dari navbar melalui id="about". Di dalamnya terdapat <h2> sebagai judul dan <p> yang berisi deskripsi diri mengenai latar belakang, minat di bidang teknologi, serta ketertarikan pada sepak bola.
 
 Bagian Skills dibuat menggunakan <div class="skill"> sebagai container setiap kemampuan. Teks persentase ditampilkan menggunakan <span>, sedangkan progress bar dibuat dengan <div class="progress"> sebagai background dan <div class="bar ..."> sebagai isi bar. Class tambahan seperti .programming, .sport, dan .soft digunakan untuk mengatur lebar bar sesuai persentase (70%, 80%, 90%) melalui CSS.
 
-
-5.Pengalaman
-
+5. Pengalaman
 <img width="706" height="179" alt="image" src="https://github.com/user-attachments/assets/c27824d3-c83e-4897-9952-c78cd3582a49" />
 
-Penjelasan:
+Tag <h3> digunakan sebagai subjudul “Pengalaman” untuk membedakan dari judul utama sebelumnya.
 
-- Tag <h3> digunakan sebagai subjudul “Pengalaman” untuk membedakan dari judul utama sebelumnya. Elemen <ul> (unordered list) digunakan untuk membuat daftar pengalaman dalam bentuk poin, sedangkan setiap <li> berisi satu pengalaman, seperti partisipasi di Arema FC Piala Soeratin U-17, mini project visualisasi data, dan kegiatan futsal kampus.
+Elemen <ul> (unordered list) digunakan untuk membuat daftar pengalaman dalam bentuk poin, sedangkan setiap <li> berisi satu pengalaman, seperti partisipasi di Arema FC Piala Soeratin U-17, mini project visualisasi data, dan kegiatan futsal kampus.
 
 Struktur list ini membantu menampilkan informasi secara rapi, terstruktur, dan mudah dibaca.
 
-
-6.Certificated
-
+6. Certificated
 <img width="813" height="770" alt="image" src="https://github.com/user-attachments/assets/5797970f-d6d9-4a75-8537-595b9770df56" />
-
 
 Bagian <section id="certificates" class="certificates"> digunakan untuk menampilkan daftar sertifikat atau pencapaian. Atribut id="certificates" berfungsi sebagai target navigasi dari navbar, sedangkan class="certificates" digunakan untuk styling melalui CSS.
 
@@ -92,7 +68,6 @@ Setiap sertifikat dibuat menggunakan <div class="card"> sebagai wadah. Di dalam 
 Bagian <footer> digunakan sebagai penutup halaman website. Elemen <p> di dalamnya menampilkan informasi hak cipta (copyright) sebagai identitas pemilik website.
 
 Tag </body> dan </html> menandakan akhir dari dokumen HTML.
-
 
 **CSS**
 
