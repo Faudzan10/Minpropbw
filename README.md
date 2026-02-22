@@ -12,6 +12,7 @@ Website terdiri dari Navbar, Hero Section, About Me, Skills, Certificates, dan F
 
 ## 1️⃣ Struktur Dasar HTML
 <img width="726" height="192" alt="image" src="https://github.com/user-attachments/assets/d80563e3-b98f-4ede-bc24-d59f30b7c639" />
+
 Penjelasan:
 
 <!DOCTYPE html> → Menentukan bahwa dokumen menggunakan HTML5.
