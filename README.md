@@ -38,10 +38,10 @@ Penjelasan:
 
 <ul> → Daftar menu.
 
-href="#home" → Navigasi ke section dengan id "home".
+href="#home" → Navigasi ke section dengan id "home"
 
 
-3️. Hero Section (Home)
+3. Hero Section (Home)
 
 <img width="987" height="286" alt="image" src="https://github.com/user-attachments/assets/6a1bf39b-8668-4871-a512-28ace613bfc4" />
 
