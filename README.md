@@ -10,7 +10,7 @@ Website terdiri dari Navbar, Hero Section, About Me, Skills, Certificates, dan F
 
 ---
 
-## 1️⃣ Struktur Dasar HTML
+1. Struktur Dasar HTML
 <img width="726" height="192" alt="image" src="https://github.com/user-attachments/assets/d80563e3-b98f-4ede-bc24-d59f30b7c639" />
 
 Penjelasan:
@@ -25,7 +25,9 @@ viewport → Agar responsive di perangkat mobile.
 
 link rel="stylesheet" → Menghubungkan file CSS.
 
-2️⃣ Navbar
+
+2️. Navbar
+
 <img width="633" height="245" alt="image" src="https://github.com/user-attachments/assets/9a2e3228-6d5e-4deb-bca0-088aa9a2863c" />
 
 Penjelasan:
@@ -38,7 +40,9 @@ Penjelasan:
 
 href="#home" → Navigasi ke section dengan id "home".
 
-3️⃣ Hero Section (Home)
+
+3️. Hero Section (Home)
+
 <img width="987" height="286" alt="image" src="https://github.com/user-attachments/assets/6a1bf39b-8668-4871-a512-28ace613bfc4" />
 
 Penjelasan:
@@ -51,7 +55,8 @@ id="home" → Target navigasi navbar.
 
 alt → Deskripsi alternatif gambar.
 
-4️⃣ About Me & Skill
+
+4️. About Me & Skill
 
 <img width="1243" height="730" alt="image" src="https://github.com/user-attachments/assets/8dad43e1-231d-4b45-9b7c-169f8c002351" />
 
@@ -60,6 +65,7 @@ Penjelasan:
 Section <section id="about" class="about"> digunakan untuk menampilkan bagian About Me dan menjadi target navigasi dari navbar melalui id="about". Di dalamnya terdapat <h2> sebagai judul dan <p> yang berisi deskripsi diri mengenai latar belakang, minat di bidang teknologi, serta ketertarikan pada sepak bola.
 
 Bagian Skills dibuat menggunakan <div class="skill"> sebagai container setiap kemampuan. Teks persentase ditampilkan menggunakan <span>, sedangkan progress bar dibuat dengan <div class="progress"> sebagai background dan <div class="bar ..."> sebagai isi bar. Class tambahan seperti .programming, .sport, dan .soft digunakan untuk mengatur lebar bar sesuai persentase (70%, 80%, 90%) melalui CSS.
+
 
 5.Pengalaman
 
@@ -70,6 +76,7 @@ Penjelasan:
 - Tag <h3> digunakan sebagai subjudul “Pengalaman” untuk membedakan dari judul utama sebelumnya. Elemen <ul> (unordered list) digunakan untuk membuat daftar pengalaman dalam bentuk poin, sedangkan setiap <li> berisi satu pengalaman, seperti partisipasi di Arema FC Piala Soeratin U-17, mini project visualisasi data, dan kegiatan futsal kampus.
 
 Struktur list ini membantu menampilkan informasi secara rapi, terstruktur, dan mudah dibaca.
+
 
 6.Certificated
 
@@ -86,6 +93,7 @@ Bagian <footer> digunakan sebagai penutup halaman website. Elemen <p> di dalamny
 
 Tag </body> dan </html> menandakan akhir dari dokumen HTML.
 
+
 **CSS**
 
 1.Global Styling
@@ -95,6 +103,7 @@ Tag </body> dan </html> menandakan akhir dari dokumen HTML.
 Bagian * { ... } disebut universal selector, artinya aturan ini berlaku untuk semua elemen HTML. Fungsinya untuk menghapus margin dan padding bawaan browser, mengatur perhitungan ukuran dengan box-sizing: border-box, serta menentukan font utama.
 
 Bagian body { ... } digunakan untuk mengatur tampilan keseluruhan halaman seperti warna background, warna teks, dan jarak antar baris agar lebih rapi dan nyaman dibaca.
+
 
 2. Navbar
 
@@ -106,6 +115,7 @@ CSS ini digunakan untuk mengatur tampilan navbar agar tersusun horizontal menggu
 
 Warna background dibuat abu-abu gelap, teks logo berwarna putih dan tebal. Menu dibuat tanpa bullet, tersusun sejajar, dan link akan berubah warna saat di-hover agar terlihat interaktif.
 
+
 3. Hero Section
 
 <img width="511" height="456" alt="image" src="https://github.com/user-attachments/assets/39c505c1-c939-4936-a64e-a7b41991b4a7" />
@@ -115,6 +125,7 @@ Penjelasan:
 .hero memakai display: flex agar teks dan gambar tersusun sejajar, dengan jarak menggunakan justify-content: space-between dan rata tengah vertikal memakai align-items: center. Background dibuat abu-abu gelap dengan teks putih, serta flex-wrap: wrap agar tetap rapi saat layar mengecil.
 
 .hero img mengatur ukuran foto menjadi 280x280px, menggunakan border-radius: 50% agar berbentuk lingkaran, diberi border abu-abu, dan box-shadow untuk efek bayangan agar terlihat lebih modern.
+
 
 4. Button
 
@@ -127,6 +138,7 @@ CSS ini digunakan untuk styling tombol (.btn).
 .btn dibuat seperti tombol menggunakan display: inline-block, diberi jarak atas, padding agar lebih besar, background abu-abu, teks putih, tanpa garis bawah, serta sudut membulat dengan border-radius. Properti transition memberi efek animasi halus saat berubah.
 
 .btn:hover mengubah warna background menjadi lebih terang saat kursor diarahkan ke tombol agar terlihat interaktif.
+
 
 5. About
 
@@ -143,6 +155,7 @@ Penjelasan:
 .bar adalah isi dari progress bar.
 
 .programming, .sport, dan .soft mengatur lebar bar sesuai persentase (70%, 80%, 90%) serta memberi warna berbeda untuk tiap kategori skill.
+
 
 6. Certificated
 
@@ -161,6 +174,7 @@ Penjelasan:
 
 .card:hover memberikan efek card naik sedikit saat disentuh agar terlihat interaktif.
 
+
 7. Footer
 
 
@@ -177,6 +191,9 @@ footer → background gelap, teks putih, rata tengah, padding 20px.
 .hero img → kasih jarak atas 30px biar nggak mepet.
 
 ===================================================================================================
+
+**OUTPUT**
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d34c1aca-6d3e-4c25-9ce1-9123576cd301" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bbf7cc48-96fc-4aa1-be05-47d9d98a6ff3" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d81eb534-f93a-4940-ae65-6695e747d29f" />
