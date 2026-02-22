@@ -28,6 +28,6 @@ Penjelasan :
 
 - h1 → Judul utama.
 
--  img → Menampilkan foto profil.
+- img → Menampilkan foto profil.
 
 - alt → Deskripsi alternatif gambar.
